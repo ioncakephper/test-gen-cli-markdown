@@ -13,7 +13,7 @@ program
 
 program
     .argument('[pattern...]', 'Glob filename patterns', ['**/*[Oo]utline.yaml'])
-    .option('-s, --sidebarsFilename <filePath>', 'Filename and path of sidebars filename', 'sidebars.js',
+    .option('-s, --sidebarsFilename <filePath>', 'Filename and path of sidebars filename', 'sidebars.js')
     .option('--templates <path>', 'Path to templates folder', 'templates')
     .action((pattern, options) => {})
     .configureHelp({
