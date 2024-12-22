@@ -9,7 +9,7 @@ const program = new Command();
 
 program
     .version('1.0.0')
-    .description('Generate CLI Markdown')
+    .description('Sample CLI with options and arguments followed by commands with their own arguments and options')
 
 program
     .command('generate')
