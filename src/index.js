@@ -26,9 +26,9 @@ program
 program
     .command('generate')
     .alias('g')
-    .description('Generate CLI Markdown')
+    .description('A special command of the app to generate a file.')
     .option('--config <filename>', 'Configuration file', 'schema.json')
-    .argument('<filename>', 'Name of file to generate', 'README.md')
+    .argument('[filename]', 'Name of file to generate', 'README.md')
     .action((filename, options) => {
         console.log('Generating CLI Markdown...');
     });
