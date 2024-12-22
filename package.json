@@ -1,0 +1,19 @@
+{
+  "name": "test-gen-cli-markdown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-generate-cli-markdown": "^1.0.0",
+    "grunt-insert-file-tag": "^0.1.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
